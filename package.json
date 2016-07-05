@@ -1,0 +1,28 @@
+{
+  "name": "pp-markdown",
+  "main": "./lib/pp-markdown",
+  "version": "0.0.1",
+  "description": "MarkDown Preview",
+  "keywords": [
+    "markdown",
+    "preview",
+    "live",
+    "html-markdown"
+  ],
+  "dependencies": {
+     "marked": ">=0.3.2",
+     "atom-space-pen-views": ">=2.0.3"
+  },
+  "consumedServices": {
+    "pp": {
+      "versions": {
+        ">=0.0.0": "consumeAddPreview"
+      }
+    }
+  },
+  "repository": "https://github.com/skandasoft/pp-markdown",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
